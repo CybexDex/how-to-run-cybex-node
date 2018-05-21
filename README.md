@@ -15,7 +15,7 @@ Step1. Build your own working directory. We will refer it as $CYBEX_ROOT_DIR in 
 export CYBEX_ROOT_DIR=${PATH TO YOUR NEWLY BUILT DIRECTORY}
 ```
 
-Step2. Enter $ROOT_DIR and execute the following commands to build sub-directories.
+Step2. Build sub-directories.
 ```Bash
 cd $CYBEX_ROOT_DIR
 mkdir bin
