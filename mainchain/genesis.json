@@ -1,0 +1,602 @@
+{
+  "immutable_parameters": {
+    "min_committee_member_count": 21, 
+    "min_witness_count": 11, 
+    "num_special_accounts": 0, 
+    "num_special_assets": 0
+  }, 
+  "initial_accounts": [
+    {
+      "active_key": "CYB8Lv4GSKCYXq3btse4nijiNS3QdebR8quMBt8Xb7ozvH19PcR3U", 
+      "is_lifetime_member": true, 
+      "name": "earth", 
+      "owner_key": "CYB5BYE5F6Ce3ejbwmDhk2wxmPx5XRxpDXNeNaYPJbA4R2zcfT8Uy"
+    }, 
+    {
+      "active_key": "CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR", 
+      "is_lifetime_member": true, 
+      "name": "harley", 
+      "owner_key": "CYB8jM4e1z1xS63xxVhuperU1VvusQz8Ye8CrnTBigFUaErpigpPL"
+    }, 
+    {
+      "active_key": "CYB7cvCwiAj8aPUvR7FgMtE3U6pyxhmEn6sas9SR3LDi1V44tc9m9", 
+      "is_lifetime_member": true, 
+      "name": "jupiter", 
+      "owner_key": "CYB6LWRZRpGYceqj6gAS6ajXw1nzAfHAjWUSnnyccPEXVQ1L9u4Xo"
+    }, 
+    {
+      "active_key": "CYB8CeXJ971imDS33jDAewxZY9ZxMnQfp7nsLwTAZRbCcjmnt2m3v", 
+      "is_lifetime_member": true, 
+      "name": "mars", 
+      "owner_key": "CYB74bW4a4xQG8T1SVia7bTmbHULCBBaobDyzNaX4Wntq1SNWUXSP"
+    }, 
+    {
+      "active_key": "CYB66AtS9N3Z5eNJG2rAVFhW7wVooi8G9ws8EDSjg2fVMeECzrHRv", 
+      "is_lifetime_member": true, 
+      "name": "mercury", 
+      "owner_key": "CYB8V51LAWB3fjZ9ixV6UxkcxBmeferidktMk1WTSEsgjyM8TcXEL"
+    }, 
+    {
+      "active_key": "CYB8W2e63MMJgSAeHVfcaAcfanqssUy8V2DaTynntVPyEEqMDyaVX", 
+      "is_lifetime_member": true, 
+      "name": "moon", 
+      "owner_key": "CYB6wHuK2LGpoJBMGRYAMnbxdy9H3BCS9pz9JVZYJ6MVmuLqP3VCS"
+    }, 
+    {
+      "active_key": "CYB6X2bZkMpKBjuKpykHdd1pLJTh34eHJHDA4JEwbHJX3J2kuVvA2", 
+      "is_lifetime_member": true, 
+      "name": "neptune", 
+      "owner_key": "CYB8d6zbZtHu5NKvzPfMvw1qa5Nzy2jnmVP77mFhCixfLriFwGu4r"
+    }, 
+    {
+      "active_key": "CYB5uDxiHJqSUdaFYzMeijegYEUeWrkEJxDHNH34xRWtV7iv12Xsp", 
+      "is_lifetime_member": true, 
+      "name": "saturn", 
+      "owner_key": "CYB5SoFqFVShQaokLzH1ztarYyNeUGtCnxSfxk7Abh73YP8KCajmq"
+    }, 
+    {
+      "active_key": "CYB79urmnmMH5GKxxRXNhxRfMsEgqodHCrnxK6HxzpSA1F3J7MKDE", 
+      "is_lifetime_member": true, 
+      "name": "sun", 
+      "owner_key": "CYB69P1xmUeLe8eL6ag6pT1dVZcdjHWgQ3GYKNQztQAJZYVx9TkFB"
+    }, 
+    {
+      "active_key": "CYB7ENdnAFGnBBXUxbng5xKnEB7UJXfjowNbvERsTaHWSrLdS9emW", 
+      "is_lifetime_member": true, 
+      "name": "uranus", 
+      "owner_key": "CYB8Nc88e91Z4mPk64j1AANoMCgME5RJjRJToMtGTnpe9JxvV6Ej4"
+    }, 
+    {
+      "active_key": "CYB5ZEkRifu9u4sEiG4RXkXhnVxgDG7o4jD3iMK3zZe5SS8sT8LRS", 
+      "is_lifetime_member": true, 
+      "name": "venus", 
+      "owner_key": "CYB7dbYS6Q3tnqbVEcPSVnWoEv245YNu8fCkfPm5hWGBjh8eFoDsU"
+    }, 
+    {
+      "active_key": "CYB5XjYyS26z3uavBHhp9tw8acJ2okFjpVbD16LbiVZUAY7RPqQUb", 
+      "is_lifetime_member": true, 
+      "name": "april", 
+      "owner_key": "CYB8869SS7Uh8qwx2FJKVSnW5TXMEVn7kcMwjpoRDkUEvQjVZh83z"
+    }, 
+    {
+      "active_key": "CYB6Qz6VMiANXtjopYmX7XQHB22A56qbHnEmmFnpabtdnarYtZAyM", 
+      "is_lifetime_member": true, 
+      "name": "avir", 
+      "owner_key": "CYB5REJDq6xWGkwYn9sFQt8XRxgjsT11aRKckm5yW3WKxpakvqWGE"
+    }, 
+    {
+      "active_key": "CYB7pPe7ZH1x2NUcHiKUtv192keahpwGUoCG2KMzsS1GDEJghuwop", 
+      "is_lifetime_member": true, 
+      "name": "bigerjoe", 
+      "owner_key": "CYB7NiAsQ6HeA2XAyThjiNu973Bx19dGrHhmYmCfD1qgHn355W76W"
+    }, 
+    {
+      "active_key": "CYB7GuMEju3SmHKgCVAz2Y1fF7mMEnRBPSmqJSf6CmBHd8P4TTFmZ", 
+      "is_lifetime_member": true, 
+      "name": "bigjoe", 
+      "owner_key": "CYB7fPc7QMrX1MQndpU8RENWMEDTnLtjSF7WN9pZwwa64tzbSxQBu"
+    }, 
+    {
+      "active_key": "CYB6XWjL9M3o6kzBWJitoA9enfhmqC9ew4EKH2ZcWUQThbVfM1stw", 
+      "is_lifetime_member": true, 
+      "name": "celtics-tatum", 
+      "owner_key": "CYB59h2gRQvxXt1URDTMHMa4fSRJceNZAxpmLVu1A4r6ducLmRTKY"
+    }, 
+    {
+      "active_key": "CYB7YfyHiFPfgGwhot1xEZyr3qNFauKy3BMXKsDpwgRPKPB2o2wjh", 
+      "is_lifetime_member": true, 
+      "name": "fairystar", 
+      "owner_key": "CYB5y2DQuxfkUSuTikNEDqpnTGxrpTDMuHwvCFZVNJWoQFzZzcwjo"
+    }, 
+    {
+      "active_key": "CYB8UX6fUe5YiqqoQbjURKkjLZh1V6i9wSuY4itTAMyo8CJxhSku3", 
+      "is_lifetime_member": true, 
+      "name": "kvir", 
+      "owner_key": "CYB7ZZHqGamZPabz5CGHYDnCXmWeaNGEHcusHUccb2MY3fw74xucj"
+    }, 
+    {
+      "active_key": "CYB7vHwj9YYgiWdpjieUFPTaHS2rwgxweBDYZLBScruYPATWvwjj9", 
+      "is_lifetime_member": true, 
+      "name": "lucifer", 
+      "owner_key": "CYB8jUYfBqawGzaqxHZMPiLmm31K1o5ghCC34ejYyR4ujg95m4DqW"
+    }, 
+    {
+      "active_key": "CYB7pb9B2J3D6NXRmsaXNnBZr5AVnH5nLNtrti3ADZfgYpRn7ihQQ", 
+      "is_lifetime_member": true, 
+      "name": "nathan", 
+      "owner_key": "CYB6iPuTiBpghi4Dh8phPeAUTofNa3DZK4HjugTpduA48kLXxfKZd"
+    }, 
+    {
+      "active_key": "CYB5nvBbMGW6PZwkivmFegqDt5gazdzKsFy2rBpF3Dfyhfnb4iQeH", 
+      "is_lifetime_member": true, 
+      "name": "processon", 
+      "owner_key": "CYB6XwUezTTEuZjmWxJwfREHjhG7iJLxZfQFHG6whp5wchxcdCLEm"
+    }, 
+    {
+      "active_key": "CYB5a4YSv38Xjvy7bdqNEq86SRGFKgVZSBZgR9T4A3F2xpPMK3Ad5", 
+      "is_lifetime_member": true, 
+      "name": "tina", 
+      "owner_key": "CYB7Meqm8RW5opr4py4b9DBcgR5xaJ3wD1UmPzwFuF5JjGgePJnQQ"
+    }
+  ], 
+  "initial_active_witnesses": 11, 
+  "initial_assets": [], 
+  "initial_balances": [
+    {
+      "amount": "95000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBF6zyPpGVd6wRG9XqCHiQ6ykKMitesMj8q"
+    }
+  ], 
+  "initial_chain_id": "0", 
+  "initial_committee_candidates": [
+    {
+      "owner_name": "nathan"
+    }, 
+    {
+      "owner_name": "april"
+    }, 
+    {
+      "owner_name": "avir"
+    }, 
+    {
+      "owner_name": "bigerjoe"
+    }, 
+    {
+      "owner_name": "bigjoe"
+    }, 
+    {
+      "owner_name": "celtics-tatum"
+    }, 
+    {
+      "owner_name": "fairystar"
+    }, 
+    {
+      "owner_name": "kvir"
+    }, 
+    {
+      "owner_name": "lucifer"
+    }, 
+    {
+      "owner_name": "processon"
+    }, 
+    {
+      "owner_name": "tina"
+    }, 
+    {
+      "owner_name": "earth"
+    }, 
+    {
+      "owner_name": "harley"
+    }, 
+    {
+      "owner_name": "jupiter"
+    }, 
+    {
+      "owner_name": "mars"
+    }, 
+    {
+      "owner_name": "mercury"
+    }, 
+    {
+      "owner_name": "moon"
+    }, 
+    {
+      "owner_name": "neptune"
+    }, 
+    {
+      "owner_name": "saturn"
+    }, 
+    {
+      "owner_name": "sun"
+    }, 
+    {
+      "owner_name": "uranus"
+    }, 
+    {
+      "owner_name": "venus"
+    }
+  ], 
+  "initial_parameters": {
+    "account_fee_scale_bitshifts": 4, 
+    "accounts_per_fee_scale": 1000, 
+    "allow_non_member_whitelists": false, 
+    "block_interval": 3, 
+    "cashback_vesting_period_seconds": 31536000, 
+    "cashback_vesting_threshold": 10000000, 
+    "committee_proposal_review_period": 0, 
+    "count_non_member_votes": true, 
+    "current_fees": {
+      "parameters": [
+        [
+          0, 
+          {
+            "fee": 1000, 
+            "price_per_kbyte": 555
+          }
+        ], 
+        [
+          1, 
+          {
+            "fee": 55
+          }
+        ], 
+        [
+          2, 
+          {
+            "fee": 5
+          }
+        ], 
+        [
+          3, 
+          {
+            "fee": 55
+          }
+        ], 
+        [
+          4, 
+          {}
+        ], 
+        [
+          5, 
+          {
+            "basic_fee": 5555, 
+            "premium_fee": 277784, 
+            "price_per_kbyte": 389
+          }
+        ], 
+        [
+          6, 
+          {
+            "fee": 55, 
+            "price_per_kbyte": 389
+          }
+        ], 
+        [
+          7, 
+          {
+            "fee": 5555
+          }
+        ], 
+        [
+          8, 
+          {
+            "membership_annual_fee": "60168000000000", 
+            "membership_lifetime_fee": 20000000000
+          }
+        ], 
+        [
+          9, 
+          {
+            "fee": 277784
+          }
+        ], 
+        [
+          10, 
+          {
+            "long_symbol": 100000000, 
+            "price_per_kbyte": 100000, 
+            "symbol3": 1000000000, 
+            "symbol4": 1000000000
+          }
+        ], 
+        [
+          11, 
+          {
+            "fee": 111114, 
+            "price_per_kbyte": 389
+          }
+        ], 
+        [
+          12, 
+          {
+            "fee": 277784
+          }
+        ], 
+        [
+          13, 
+          {
+            "fee": 277784
+          }
+        ], 
+        [
+          14, 
+          {
+            "fee": 1000, 
+            "price_per_kbyte": 555
+          }
+        ], 
+        [
+          15, 
+          {
+            "fee": 55
+          }
+        ], 
+        [
+          16, 
+          {
+            "fee": 27778
+          }
+        ], 
+        [
+          17, 
+          {
+            "fee": 2777
+          }
+        ], 
+        [
+          18, 
+          {
+            "fee": 277784
+          }
+        ], 
+        [
+          19, 
+          {
+            "fee": 5
+          }
+        ], 
+        [
+          20, 
+          {
+            "fee": 2777844
+          }
+        ], 
+        [
+          21, 
+          {
+            "fee": 555
+          }
+        ], 
+        [
+          22, 
+          {
+            "fee": 8333, 
+            "price_per_kbyte": 2777
+          }
+        ], 
+        [
+          23, 
+          {
+            "fee": 277, 
+            "price_per_kbyte": 389
+          }
+        ], 
+        [
+          24, 
+          {
+            "fee": 0
+          }
+        ], 
+        [
+          25, 
+          {
+            "fee": 8333
+          }
+        ], 
+        [
+          26, 
+          {
+            "fee": 555
+          }
+        ], 
+        [
+          27, 
+          {
+            "fee": 800, 
+            "price_per_kbyte": 389
+          }
+        ], 
+        [
+          28, 
+          {
+            "fee": 0
+          }
+        ], 
+        [
+          29, 
+          {
+            "fee": 277784
+          }
+        ], 
+        [
+          30, 
+          {
+            "fee": 555569
+          }
+        ], 
+        [
+          31, 
+          {
+            "fee": 0
+          }
+        ], 
+        [
+          32, 
+          {
+            "fee": 55557
+          }
+        ], 
+        [
+          33, 
+          {
+            "fee": 111114
+          }
+        ], 
+        [
+          34, 
+          {
+            "fee": 2777844
+          }
+        ], 
+        [
+          35, 
+          {
+            "fee": 555, 
+            "price_per_kbyte": 2777
+          }
+        ], 
+        [
+          36, 
+          {
+            "fee": 27778
+          }
+        ], 
+        [
+          37, 
+          {}
+        ], 
+        [
+          38, 
+          {
+            "fee": 55557, 
+            "price_per_kbyte": 389
+          }
+        ], 
+        [
+          39, 
+          {
+            "fee": 11667, 
+            "price_per_output": 3889
+          }
+        ], 
+        [
+          40, 
+          {
+            "fee": 11667, 
+            "price_per_output": 3889
+          }
+        ], 
+        [
+          41, 
+          {
+            "fee": 11667
+          }
+        ], 
+        [
+          42, 
+          {}
+        ], 
+        [
+          43, 
+          {
+            "fee": 55557
+          }
+        ], 
+        [
+          44, 
+          {}
+        ],
+        [
+          45, 
+          {
+            "fee": 10000 
+          }
+        ],
+        [
+          46, 
+          {
+            "fee": 10000 
+          }
+        ],
+        [
+          47, 
+          {
+            "fee": 10000 
+          }
+        ]
+      ], 
+      "scale": 10000
+    }, 
+    "extensions": [], 
+    "fee_liquidation_threshold": 10000000, 
+    "lifetime_referrer_percent_of_fee": 3000, 
+    "maintenance_interval": 3600, 
+    "maintenance_skip_slots": 3, 
+    "max_authority_depth": 2, 
+    "max_predicate_opcode": 1, 
+    "maximum_asset_feed_publishers": 10, 
+    "maximum_asset_whitelist_authorities": 10, 
+    "maximum_authority_membership": 10, 
+    "maximum_block_size": 2048000000, 
+    "maximum_committee_count": 1001, 
+    "maximum_proposal_lifetime": 62208000, 
+    "maximum_time_until_expiration": 86400, 
+    "maximum_transaction_size": 2048, 
+    "maximum_witness_count": 1001, 
+    "network_percent_of_fee": 2000, 
+    "reserve_percent_of_fee": 2000, 
+    "witness_pay_per_block": 10000, 
+    "worker_budget_per_day": "50000000000"
+  }, 
+  "initial_timestamp": "2017-08-02T18:05:00", 
+  "initial_vesting_balances": [], 
+  "initial_witness_candidates": [
+    {
+      "block_signing_key": "CYB8iWrVHcBaq74mqA6Dd58yeN7pEgmvBLrhYB1HSQRj8UBrHec5u", 
+      "owner_name": "earth"
+    }, 
+    {
+      "block_signing_key": "CYB8Vfkpqn6B35xTMCwhqUuGDHuTfdmo368zDWT4xz2MZmy368Gvh", 
+      "owner_name": "harley"
+    }, 
+    {
+      "block_signing_key": "CYB7jgQr7HwAuHxLyi2Lmn3TAmKRL68PxttURY5jrV6Hf5F2qykau", 
+      "owner_name": "jupiter"
+    }, 
+    {
+      "block_signing_key": "CYB7tvEgzVZTnMGo58xNY8ADudt73C4uLj7jFU8wcTvjAV5vBYuBg", 
+      "owner_name": "mars"
+    }, 
+    {
+      "block_signing_key": "CYB794BG2L6r1g4Qo6KYAQVqvBY6dK5z8wBwQd4ueiyXpDtBTV1K2", 
+      "owner_name": "mercury"
+    }, 
+    {
+      "block_signing_key": "CYB6FCxfyxx8w5jUeYePfduJXxXjePzmaStosNX5W4AcYsw22rqPr", 
+      "owner_name": "moon"
+    }, 
+    {
+      "block_signing_key": "CYB6czeZpym8QVLtHLvRCNwfAe9hkeBJTqRzZuJQv6Mr3KaDoxcep", 
+      "owner_name": "neptune"
+    }, 
+    {
+      "block_signing_key": "CYB5VfCmMhLgAwrqb8TSNHc2KktsstTzeRa7CbkHFN8xDzgtqQYUr", 
+      "owner_name": "saturn"
+    }, 
+    {
+      "block_signing_key": "CYB5NzQmixDFpQnsCWKbdHUeV8hjgTosC42F7jbEbpkD71pZgXwhr", 
+      "owner_name": "sun"
+    }, 
+    {
+      "block_signing_key": "CYB5TShTBwJao7vmTcPy3AiMZ9ioVvn4ydQtjAaDbo7PaW3oRFaqy", 
+      "owner_name": "uranus"
+    }, 
+    {
+      "block_signing_key": "CYB8X9XnVCWoNJgFvb4BgGHxuDgZdNF3NMvreZFvVC94wFcbMpEAE", 
+      "owner_name": "venus"
+    }
+  ], 
+  "initial_worker_candidates": [], 
+  "max_core_supply": "100000000000000"
+}

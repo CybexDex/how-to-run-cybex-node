@@ -1,0 +1,688 @@
+{
+  "immutable_parameters": {
+    "min_committee_member_count": 21, 
+    "min_witness_count": 11, 
+    "num_special_accounts": 0, 
+    "num_special_assets": 0
+  }, 
+  "initial_accounts": [
+    {
+      "active_key": "CYB5qELHeGSepWKMmXDw8Z3rP2N4EStXTsH5VBoWphAsChSs5rgG9", 
+      "is_lifetime_member": true, 
+      "name": "init0", 
+      "owner_key": "CYB8S8U3ZRzsLPkP12sXdJsrUiBvF8xath57a1YoRUm98gQ5p3F4E"
+    }, 
+    {
+      "active_key": "CYB7E66TzuQh9g17NQMVS3VbNTX521GqJy8ymMnMADgxtwC9HfFaJ", 
+      "is_lifetime_member": true, 
+      "name": "init1", 
+      "owner_key": "CYB6Rhf4AkfE6rzXBYQTf7woEa1S8eJ4T4n2dCDtV85sUsutbkHKe"
+    }, 
+    {
+      "active_key": "CYB7Pw5VWCGnDJ8ZFsaVJ7F15Pk7QQ71bB4U263UUy7uX5hyEsmcg", 
+      "is_lifetime_member": true, 
+      "name": "init2", 
+      "owner_key": "CYB5v5xPFmkzUYBy4PMEecQKrWQfVcuDCaBuJpDj5pcEUmhFZREpx"
+    }, 
+    {
+      "active_key": "CYB6T1Boacjz8fBszuyPJn42eqm49eZsGSzTRauvmStstR1VaBrty", 
+      "is_lifetime_member": true, 
+      "name": "init3", 
+      "owner_key": "CYB7qW2kHwQAgjBi88M6PXE7BKEndAxdWnTf7QV7JqPf35arqZYWA"
+    }, 
+    {
+      "active_key": "CYB7j4dZtMXB37sZCDPo3Ur4GCohvfPdW9WeUC3HScBJKFoqpr5RN", 
+      "is_lifetime_member": true, 
+      "name": "init4", 
+      "owner_key": "CYB85X1QGXi9Cp7fparmkVA2VzogzaRQL4oX7YnjKkWt4LLcaMz9J"
+    }, 
+    {
+      "active_key": "CYB7WYKeyUGrbowEQeUcoxuGwmsD39XqEmhzTC3QUe5VuHxixQMkg", 
+      "is_lifetime_member": true, 
+      "name": "init5", 
+      "owner_key": "CYB8FrD8e28SkLFGogGMhBUB8pHJMATB68xFSQ3Q88um2GruJFunD"
+    }, 
+    {
+      "active_key": "CYB874Jb55VVN67FfMY51cLi8LwZz9qAqNUJEN2oKhTZYiTV1Ssxf", 
+      "is_lifetime_member": true, 
+      "name": "init6", 
+      "owner_key": "CYB6n218sbWVPoD2NG11CetjVoJJyCMnDWVR3ytBFsHLg7AoJfEi8"
+    }, 
+    {
+      "active_key": "CYB5Nf9yFuNPYt6tUkSNTD1GEpzF1ZWiC3Acigh6zPaAeNoQtwqq6", 
+      "is_lifetime_member": true, 
+      "name": "init7", 
+      "owner_key": "CYB5T8UyyF6fSdH4Foj2BYoLLBhSypdBFx5TvZU1kun9TL7emwMpv"
+    }, 
+    {
+      "active_key": "CYB81xT1kG3wNWhJP4MfSwqJYXSprGiQ1QF9ggQgdNhhsgQu33pQY", 
+      "is_lifetime_member": true, 
+      "name": "init8", 
+      "owner_key": "CYB8SET1d9xN6AHJrCKjCvetB5veFuA1NHf92DQga41QpvtUCdhV1"
+    }, 
+    {
+      "active_key": "CYB7HZktEnVcWCHQUrMe1v47QW3byPrsg9ZKZdFwW4qJdiuFrM8Um", 
+      "is_lifetime_member": true, 
+      "name": "init9", 
+      "owner_key": "CYB7uL74T4ukaLkkHYycH9SWtm6tzMrCWM2X9TCW2EEZM8fMyuNoA"
+    }, 
+    {
+      "active_key": "CYB7NcPs7NUaoVJWHRC7mspN6kN4jukVy6wzzCL9oE3e1RQ91dggG", 
+      "is_lifetime_member": true, 
+      "name": "init10", 
+      "owner_key": "CYB5Qtp5ZAALwGHzSjwDcdQBvUgMJ5EGLg5c3dYFBMCM3NrG1Pttt"
+    }, 
+    {
+      "active_key": "CYB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV", 
+      "is_lifetime_member": false, 
+      "name": "nathan", 
+      "owner_key": "CYB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+    }, 
+    {
+      "active_key": "CYB8cpEf3qsBg4JyPVRrNcrGJySyTt6SqHxgLNWBEVWNLPtJgEytb", 
+      "is_lifetime_member": true, 
+      "name": "owner1", 
+      "owner_key": "CYB5eTQbwSGLE2wU83J8X8z1xa2WeArEq61hCKANkqpo3L3fTP7AC"
+    }, 
+    {
+      "active_key": "CYB86ePvbnkMQQtcd3uvRQU1UyGPUDVg6VSLiFxyudNfzQr7s2bNe", 
+      "is_lifetime_member": true, 
+      "name": "owner2", 
+      "owner_key": "CYB7cgpeyw8ew7XARxoASiPZUoT8LULFeqPofKuQuf792FthaFE92"
+    }, 
+    {
+      "active_key": "CYB81CaZXA2GV3HaqLKaBFMhVNstu7BVDFBb5G1fTQ8PCDn1wnbXw", 
+      "is_lifetime_member": true, 
+      "name": "owner3", 
+      "owner_key": "CYB6GSKzLSMX1cRDBrkiPYVZtWEGewe2v3HQrpB5cpFg52B7Gn8YF"
+    }, 
+    {
+      "active_key": "CYB7np2Pmyt9jQQiSVUT2YKQDNcAdqojK82K4VbMeCFh2NivVpuTS", 
+      "is_lifetime_member": true, 
+      "name": "owner4", 
+      "owner_key": "CYB7Yav3THxD9eKMBrikpfoMUwKX3tFCHhLeNjxJeJfwur5BtvLLu"
+    }, 
+    {
+      "active_key": "CYB7MVosBe52RG6chhJhMQ1XrEMZiGQRrsdaAdLDKjCFzGBQNMgSK", 
+      "is_lifetime_member": true, 
+      "name": "owner5", 
+      "owner_key": "CYB7ejCzKH9ciJazFa5gtRK3wHKuQq58d8SU4inKiPG6AfdC6gVZk"
+    }, 
+    {
+      "active_key": "CYB5sy1Hmqf2iSwEoAW9UgRz1FrtDj4HXCHnftFCKTxDVLKL7ao9v", 
+      "is_lifetime_member": true, 
+      "name": "owner6", 
+      "owner_key": "CYB8dB5h7VnAKmDbJffG6C44y2PFWAP6A1xrSNHqwYhEYdCgxaMaA"
+    }, 
+    {
+      "active_key": "CYB6cFeUnRtQTAMhM76pPN7JPwEezq5ugMZQiF8KgUQPYj7XKeLR8", 
+      "is_lifetime_member": true, 
+      "name": "owner7", 
+      "owner_key": "CYB7MkoGDBwqiEYMJm1ZwfSBhmcC8aRWuus7jutxofRcfAp2dDoDX"
+    }, 
+    {
+      "active_key": "CYB7MWrHDStgnbgaFnruWA7bMa62MVHqP3q5aqmq7Gc3otmiLmmCN", 
+      "is_lifetime_member": true, 
+      "name": "owner8", 
+      "owner_key": "CYB5wrAdkRWRUUpT2FvXhhqBopHZB8KqZ645hTwRyKRNf58Z22bKA"
+    }, 
+    {
+      "active_key": "CYB7xDk2V2587TENXgujNsqLCKMuDdFUXkMLaKeiQwsKtZkVkzXgk", 
+      "is_lifetime_member": true, 
+      "name": "owner9", 
+      "owner_key": "CYB6roxLqzPhuFYiU4tyNNhj1CtwXXG4oJ3feU55tjSdYZUuZEfJz"
+    }, 
+    {
+      "active_key": "CYB5K75sgYH9RMgUcJkyBvW8uxxdW2qBXFR31bUd5MymuMwWACpUQ", 
+      "is_lifetime_member": true, 
+      "name": "owner10", 
+      "owner_key": "CYB8NxYrrYKCSoHD6Yd8QqAZxNMRnC9PF17PSN4a1o7JBXPE7cmqt"
+    }
+  ], 
+  "initial_active_witnesses": 11, 
+  "initial_assets": [
+    ], 
+  "initial_balances": [
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYB6P7FhbTeBYFQxSVkvqiUBSdragvYycdeg"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBKTuVTogA6V1TqFjrt3oMfmF31ctgMACg"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBABkWn12eQWn1sjVHKV9ogHpAcxyQRZvjv"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYB6TCGJC8ncD8fof86oLaQbThKcT52nd66g"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBCDQTeCB1HjYeXMQo2sqj16MSEckdB29gs"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBNAPt72Y7PDWjLxxq7zitKdzKa9jyEKzMJ"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBDjBBqJquj79byXxVgxFGKXT7NAbai1e3p"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBHE34PY2GZy9jxZamVcGKPWn6vwNCPB5EQ"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBLX7YHTq52vxm2vfKMGUeEBbcNCZ3YrEPL"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBPXfK5Pq59sLrYLPrJvXWEHd1tun48RGCi"
+    },
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYB6P7FhbTeBYFQxSVkvqiUBSdragvYycdeg"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBKTuVTogA6V1TqFjrt3oMfmF31ctgMACg"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBABkWn12eQWn1sjVHKV9ogHpAcxyQRZvjv"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYB6TCGJC8ncD8fof86oLaQbThKcT52nd66g"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBCDQTeCB1HjYeXMQo2sqj16MSEckdB29gs"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBNAPt72Y7PDWjLxxq7zitKdzKa9jyEKzMJ"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBDjBBqJquj79byXxVgxFGKXT7NAbai1e3p"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBHE34PY2GZy9jxZamVcGKPWn6vwNCPB5EQ"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBLX7YHTq52vxm2vfKMGUeEBbcNCZ3YrEPL"
+    }, 
+    {
+      "amount": "1000000000000", 
+      "asset_symbol": "CYB", 
+      "owner": "CYBPXfK5Pq59sLrYLPrJvXWEHd1tun48RGCi"
+    }
+  ], 
+  "initial_chain_id": "aa34045518f1469a28fa4578240d5f039afa9959c0b95ce3b39674efa691fb21", 
+  "initial_committee_candidates": [
+    {
+      "owner_name": "init0"
+    }, 
+    {
+      "owner_name": "init1"
+    }, 
+    {
+      "owner_name": "init2"
+    }, 
+    {
+      "owner_name": "init3"
+    }, 
+    {
+      "owner_name": "init4"
+    }, 
+    {
+      "owner_name": "init5"
+    }, 
+    {
+      "owner_name": "init6"
+    }, 
+    {
+      "owner_name": "init7"
+    }, 
+    {
+      "owner_name": "init8"
+    }, 
+    {
+      "owner_name": "init9"
+    }, 
+    {
+      "owner_name": "init10"
+    }, 
+    {
+      "owner_name": "owner1"
+    }, 
+    {
+      "owner_name": "owner2"
+    }, 
+    {
+      "owner_name": "owner3"
+    }, 
+    {
+      "owner_name": "owner4"
+    }, 
+    {
+      "owner_name": "owner5"
+    }, 
+    {
+      "owner_name": "owner6"
+    }, 
+    {
+      "owner_name": "owner7"
+    }, 
+    {
+      "owner_name": "owner8"
+    }, 
+    {
+      "owner_name": "owner9"
+    }, 
+    {
+      "owner_name": "owner10"
+    }
+  ], 
+  "initial_parameters": {
+    "account_fee_scale_bitshifts": 4, 
+    "accounts_per_fee_scale": 1000, 
+    "allow_non_member_whitelists": false, 
+    "block_interval": 5, 
+    "cashback_vesting_period_seconds": 31536000, 
+    "cashback_vesting_threshold": 10000000, 
+    "committee_proposal_review_period": 1209600, 
+    "count_non_member_votes": true, 
+    "current_fees": {
+      "parameters": [
+        [
+          0, 
+          {
+            "fee": 2000, 
+            "price_per_kbyte": 1000
+          }
+        ], 
+        [
+          1, 
+          {
+            "fee": 500
+          }
+        ], 
+        [
+          2, 
+          {
+            "fee": 0
+          }
+        ], 
+        [
+          3, 
+          {
+            "fee": 2000
+          }
+        ], 
+        [
+          4, 
+          {}
+        ], 
+        [
+          5, 
+          {
+            "basic_fee": 500, 
+            "premium_fee": 200, 
+            "price_per_kbyte": 100
+          }
+        ], 
+        [
+          6, 
+          {
+            "fee": 2000, 
+            "price_per_kbyte": 100
+          }
+        ], 
+        [
+          7, 
+          {
+            "fee": 300
+          }
+        ], 
+        [
+          8, 
+          {
+            "membership_annual_fee": 200, 
+            "membership_lifetime_fee": 1000
+          }
+        ], 
+        [
+          9, 
+          {
+            "fee": 50000
+          }
+        ], 
+        [
+          10, 
+          {
+            "long_symbol": 500, 
+            "price_per_kbyte": 10, 
+            "symbol3": "50000", 
+            "symbol4": "30000"
+          }
+        ], 
+        [
+          11, 
+          {
+            "fee": 50000, 
+            "price_per_kbyte": 10
+          }
+        ], 
+        [
+          12, 
+          {
+            "fee": 50000
+          }
+        ], 
+        [
+          13, 
+          {
+            "fee": 50000
+          }
+        ], 
+        [
+          14, 
+          {
+            "fee": 2000, 
+            "price_per_kbyte": 100
+          }
+        ], 
+        [
+          15, 
+          {
+            "fee": 2000
+          }
+        ], 
+        [
+          16, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          17, 
+          {
+            "fee": 10000
+          }
+        ], 
+        [
+          18, 
+          {
+            "fee": 50000
+          }
+        ], 
+        [
+          19, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          20, 
+          {
+            "fee": 500
+          }
+        ], 
+        [
+          21, 
+          {
+            "fee": 2000
+          }
+        ], 
+        [
+          22, 
+          {
+            "fee": 2000, 
+            "price_per_kbyte": 10
+          }
+        ], 
+        [
+          23, 
+          {
+            "fee": 2000, 
+            "price_per_kbyte": 10
+          }
+        ], 
+        [
+          24, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          25, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          26, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          27, 
+          {
+            "fee": 2000, 
+            "price_per_kbyte": 10
+          }
+        ], 
+        [
+          28, 
+          {
+            "fee": 0
+          }
+        ], 
+        [
+          29, 
+          {
+            "fee": 500
+          }
+        ], 
+        [
+          30, 
+          {
+            "fee": 2000
+          }
+        ], 
+        [
+          31, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          32, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          33, 
+          {
+            "fee": 2000
+          }
+        ], 
+        [
+          34, 
+          {
+            "fee": 500
+          }
+        ], 
+        [
+          35, 
+          {
+            "fee": 100, 
+            "price_per_kbyte": 10
+          }
+        ], 
+        [
+          36, 
+          {
+            "fee": 100
+          }
+        ], 
+        [
+          37, 
+          {}
+        ], 
+        [
+          38, 
+          {
+            "fee": 2000, 
+            "price_per_kbyte": 10
+          }
+        ], 
+        [
+          39, 
+          {
+            "fee": 500, 
+            "price_per_output": 500
+          }
+        ], 
+        [
+          40, 
+          {
+            "fee": 500, 
+            "price_per_output": 500
+          }
+        ], 
+        [
+          41, 
+          {
+            "fee": 500
+          }
+        ], 
+        [
+          42, 
+          {}
+        ], 
+        [
+          43, 
+          {
+            "fee": 2000
+          }
+        ], 
+        [
+          44, 
+          {}
+        ]
+      ], 
+      "scale": 10000
+    }, 
+    "extensions": [], 
+    "fee_liquidation_threshold": 10000000, 
+    "lifetime_referrer_percent_of_fee": 3000, 
+    "maintenance_interval": 300, 
+    "maintenance_skip_slots": 3, 
+    "max_authority_depth": 2, 
+    "max_predicate_opcode": 1, 
+    "maximum_asset_feed_publishers": 10, 
+    "maximum_asset_whitelist_authorities": 10, 
+    "maximum_authority_membership": 10, 
+    "maximum_block_size": 2048000000, 
+    "maximum_committee_count": 1001, 
+    "maximum_proposal_lifetime": 2419200, 
+    "maximum_time_until_expiration": 86400, 
+    "maximum_transaction_size": 2048, 
+    "maximum_witness_count": 1001, 
+    "network_percent_of_fee": 2000, 
+    "reserve_percent_of_fee": 2000, 
+    "witness_pay_per_block": 10, 
+    "worker_budget_per_day": "50000000000"
+  }, 
+  "initial_timestamp": "2017-08-02T18:05:00", 
+  "initial_vesting_balances": [ 
+   ],
+  "initial_witness_candidates": [
+    {
+      "block_signing_key": "CYB7u7icJN98TsavZYt9a7VmsxrurXqsVk8YacZbjqNm6FsvJQc55", 
+      "owner_name": "init0"
+    }, 
+    {
+      "block_signing_key": "CYB8YXe39hEeaSL9auC6cCAWpRszPrm1bLCsdy5hrxsppV46Vmqt7", 
+      "owner_name": "init1"
+    }, 
+    {
+      "block_signing_key": "CYB5JkJn7n1oFNcu4R7jE4ZTA5eigiyomGt1G2iGtHvd6ovRNzJWx", 
+      "owner_name": "init2"
+    }, 
+    {
+      "block_signing_key": "CYB7c5ySHZeT1DoPufE3kuNwunX9i7NH6kAFG9rcUQeqoqXHADez2", 
+      "owner_name": "init3"
+    }, 
+    {
+      "block_signing_key": "CYB79BsWSavzuXTc7QSjfceDrkjb73pFEZmQGnBC2HnSvcV9WiDKK", 
+      "owner_name": "init4"
+    }, 
+    {
+      "block_signing_key": "CYB6w3jqJe97axvGwnGRkJQRDNtsHAQsKLktTqavbUPrczSKUdhfA", 
+      "owner_name": "init5"
+    }, 
+    {
+      "block_signing_key": "CYB7wHRGvaodZATM8wxFr7KDB6oa4Rc91APH74gRN69Z5dhLo6LZq", 
+      "owner_name": "init6"
+    }, 
+    {
+      "block_signing_key": "CYB7ykTGDmSsUEJb8f1y6oKDPZ2DxCLNXiTex4rkjto7smYc2LPCY", 
+      "owner_name": "init7"
+    }, 
+    {
+      "block_signing_key": "CYB75yFJwc9azfa9rm8AkySbaazBTNtqZLFHB6bXqF35H4Ja8fzxj", 
+      "owner_name": "init8"
+    }, 
+    {
+      "block_signing_key": "CYB4wSBmkGrqkY87N8Bm82LcxQrvRP1ZjidjFCvRP9DQaJDYeqJyg", 
+      "owner_name": "init9"
+    }, 
+    {
+      "block_signing_key": "CYB6oohTwqUn5LgPxZgwwPs5xmZ8QLVc8iWnsRkdDdx7C2D1dAuD5", 
+      "owner_name": "init10"
+    }
+  ], 
+  "initial_worker_candidates": [], 
+  "max_core_supply": "100000000000000"
+}
