@@ -21,13 +21,8 @@ cd $CYBEX_ROOT_DIR
 mkdir bin
 mkdir data
 ```
-Step3. Download prebuilt witness_node, cli_wallet to bin directory
-```Bash
-cd $CYBEX_ROOT_DIR
-cd bin
-```
-
-Step4. Download genesis.json file to $CYBEX_ROOT_DIR, and download config.ini file to data dir
+Step3. Download prebuilt witness_node, cli_wallet to bin directory, 
+genesis.json file to $CYBEX_ROOT_DIR, and download config.ini file to data dir
 Each chain has its own genesis.json. For each node, you can only choose one chain to connect.
 The corresponding genesis.json file need to be downloaded.
 
@@ -59,6 +54,12 @@ $ md5sum cli_wallet
 $ md5sum witness_node
 427656e31093117dbe46d1c9cf50bb22  witness_node
 
+```
+
+Sometimes you may need to set execute bit to binary
+```Bash
+cd $CYBEX_ROOT_DIR
+chmod u+x cli_wallet witness_node
 ```
 
 Step5. Start non witness-node
