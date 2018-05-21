@@ -47,7 +47,7 @@ wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/mast
 Check sum of binary
 ```Bash
 cd $CYBEX_ROOT_DIR
-
+cd bin
 $ md5sum cli_wallet 
 9f5b4c3a2c22d7b29c41c6163a45d663  cli_wallet
 
