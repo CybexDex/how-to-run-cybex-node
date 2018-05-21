@@ -59,10 +59,10 @@ $ md5sum witness_node
 Sometimes you may need to set execute bit to binary
 ```Bash
 cd $CYBEX_ROOT_DIR
-chmod u+x cli_wallet witness_node
+chmod u+x bin/cli_wallet bin/witness_node
 ```
 
-Step5. Start non witness-node
+Step4. Start non witness-node
 ```Bash
 cd $CYBEX_ROOT_DIR
 ./bin/witness_node -d data --genesis-json genesis.json --max-ops-per-account 500
