@@ -69,7 +69,7 @@ cd $CYBEX_ROOT_DIR
 ```
 
 
-**attention**
+**Attention**
 
 If you use macOS, please replace the witness_node with this:
 
