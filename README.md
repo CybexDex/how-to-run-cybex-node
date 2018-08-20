@@ -71,3 +71,14 @@ cd $CYBEX_ROOT_DIR
 
 **attention**
 
+If you use macOS, please replace the witness_node with this:
+
+```Bash
+https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/mac-witness/witness_node -O bin/witness_node
+```
+
+Check sum of binary
+```Bash
+$ md5sum witness_node
+c8929ef1c61c8f060785552c2b059fd4   witness_node
+```
