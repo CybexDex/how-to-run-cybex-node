@@ -29,8 +29,10 @@ The corresponding genesis.json file need to be downloaded.
 If you want to connect to **TEST** chain
 ```Bash
 cd $CYBEX_ROOT_DIR
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/witness_node -O bin/witness_node
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
+wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/dextest/witness_node -O bin/witness_node
+wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/dextest/cli_wallet -O bin/cli_wallet
+md5sum witness_node # will output "47b9b8948904d64733ef4be63e72826d  witness_node"
+md5sum cli_wallet # will output "ede3edc8715bf7d50ccdb51a75984825  cli_wallet"
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/testchain/genesis.json -O genesis.json
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/testchain/config.ini -O data/config.ini
 ```
@@ -38,22 +40,12 @@ wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/mast
 If you want to connect to **MAIN** chain
 ```Bash
 cd $CYBEX_ROOT_DIR
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/witness_node -O bin/witness_node
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
+wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/prod/witness_node -O bin/witness_node
+wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/prod/cli_wallet -O bin/cli_wallet
+md5sum witness_node # will output "75cbaf9eb34a1a2281af2a6f085d24cd  witness_node"
+md5sum cli_wallet # will output "ede3edc8715bf7d50ccdb51a75984825  cli_wallet"
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/mainchain/genesis.json -O genesis.json
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/mainchain/config.ini -O data/config.ini
-```
-
-Check sum of binary
-```Bash
-cd $CYBEX_ROOT_DIR
-cd bin
-$ md5sum cli_wallet 
-9f5b4c3a2c22d7b29c41c6163a45d663  cli_wallet
-
-$ md5sum witness_node
-427656e31093117dbe46d1c9cf50bb22  witness_node
-
 ```
 
 Sometimes you may need to set execute bit to binary
