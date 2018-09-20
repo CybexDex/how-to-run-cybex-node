@@ -51,7 +51,7 @@ cd $CYBEX_ROOT_DIR
 chmod u+x bin/cli_wallet bin/witness_node
 ```
 
-Step4. Start non witness-node
+Step5. Start non witness-node
 ```Bash
 cd $CYBEX_ROOT_DIR
 ./bin/witness_node -d data --genesis-json genesis.json --max-ops-per-account 500 --resync-blockchain --replay-blockchain
