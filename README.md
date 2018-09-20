@@ -22,17 +22,18 @@ mkdir bin
 mkdir data
 ```
 Step3. Download prebuilt witness_node, cli_wallet to bin directory, 
-genesis.json file to $CYBEX_ROOT_DIR, and download config.ini file to data dir
-Each chain has its own genesis.json. For each node, you can only choose one chain to connect.
-The corresponding genesis.json file need to be downloaded.
+```Bash
+wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/witness_node -O bin/witness_node
+wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
+md5sum witness_node # will output "75cbaf9eb34a1a2281af2a6f085d24cd  witness_node"
+md5sum cli_wallet # will output "ede3edc8715bf7d50ccdb51a75984825  cli_wallet"
+```
+
+Step4. Download genesis.json, config.ini
 
 If you want to connect to **TEST** chain
 ```Bash
 cd $CYBEX_ROOT_DIR
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/dextest/witness_node -O bin/witness_node
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/dextest/cli_wallet -O bin/cli_wallet
-md5sum witness_node # will output "47b9b8948904d64733ef4be63e72826d  witness_node"
-md5sum cli_wallet # will output "ede3edc8715bf7d50ccdb51a75984825  cli_wallet"
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/testchain/genesis.json -O genesis.json
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/testchain/config.ini -O data/config.ini
 ```
@@ -40,10 +41,6 @@ wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/mast
 If you want to connect to **MAIN** chain
 ```Bash
 cd $CYBEX_ROOT_DIR
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/prod/witness_node -O bin/witness_node
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/prod/cli_wallet -O bin/cli_wallet
-md5sum witness_node # will output "75cbaf9eb34a1a2281af2a6f085d24cd  witness_node"
-md5sum cli_wallet # will output "ede3edc8715bf7d50ccdb51a75984825  cli_wallet"
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/mainchain/genesis.json -O genesis.json
 wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/mainchain/config.ini -O data/config.ini
 ```
