@@ -23,8 +23,8 @@ mkdir data
 ```
 Step3. Download prebuilt witness_node, cli_wallet to bin directory, 
 ```Bash
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/witness_node -O bin/witness_node
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
+wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/bin/witness_node -O bin/witness_node
+wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
 md5sum witness_node # will output "75cbaf9eb34a1a2281af2a6f085d24cd  witness_node"
 md5sum cli_wallet # will output "ede3edc8715bf7d50ccdb51a75984825  cli_wallet"
 ```
@@ -34,15 +34,15 @@ Step4. Download genesis.json, config.ini
 If you want to connect to **TEST** chain
 ```Bash
 cd $CYBEX_ROOT_DIR
-wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/testchain/genesis.json -O genesis.json
-wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/testchain/config.ini -O data/config.ini
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-cybex-node/master/testchain/genesis.json -O genesis.json
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-cybex-node/master/testchain/config.ini -O data/config.ini
 ```
 
 If you want to connect to **MAIN** chain
 ```Bash
 cd $CYBEX_ROOT_DIR
-wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/mainchain/genesis.json -O genesis.json
-wget https://raw.githubusercontent.com/NebulaCybexDEX/how-to-run-cybex-node/master/mainchain/config.ini -O data/config.ini
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-cybex-node/master/mainchain/genesis.json -O genesis.json
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-cybex-node/master/mainchain/config.ini -O data/config.ini
 ```
 
 Sometimes you may need to set execute bit to binary
@@ -63,8 +63,8 @@ cd $CYBEX_ROOT_DIR
 If you use macOS, please replace the witness_node with this:
 
 ```Bash
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/mac-bin/witness_node -O bin/witness_node
-wget https://github.com/NebulaCybexDEX/how-to-run-cybex-node/raw/master/mac-bin/cli_wallet -O bin/cli_wallet
+wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/mac-bin/witness_node -O bin/witness_node
+wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/mac-bin/cli_wallet -O bin/cli_wallet
 ```
 
 Check sum of binary
