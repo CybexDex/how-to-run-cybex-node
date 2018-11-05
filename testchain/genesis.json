@@ -6,7 +6,7 @@
     "maximum_witness_count": 1001,
     "maximum_time_until_expiration": 86400,
     "fee_liquidation_threshold": 10000000,
-    "committee_proposal_review_period": 1209600,
+    "committee_proposal_review_period": 0,
     "account_fee_scale_bitshifts": 4,
     "block_interval": 5,
     "maximum_committee_count": 1001,
@@ -23,26 +23,26 @@
         [
           0,
           {
-            "fee": 2000,
-            "price_per_kbyte": 1000
+            "fee": 1000,
+            "price_per_kbyte": 555
           }
         ],
         [
           1,
           {
-            "fee": 500
+            "fee": 55
           }
         ],
         [
           2,
           {
-            "fee": 0
+            "fee": 5
           }
         ],
         [
           3,
           {
-            "fee": 2000
+            "fee": 55
           }
         ],
         [
@@ -367,7 +367,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE",
+      "symbol": "TEST",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -376,7 +376,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.ETH",
+      "symbol": "TEST.ETH",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -385,7 +385,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.BTC",
+      "symbol": "TEST.BTC",
       "issuer_name": "a-new-world",
       "precision": 8
     },
@@ -394,7 +394,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.EOS",
+      "symbol": "TEST.EOS",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -403,7 +403,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.SNT",
+      "symbol": "TEST.SNT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -412,7 +412,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.BAT",
+      "symbol": "TEST.BAT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -421,7 +421,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.VEN",
+      "symbol": "TEST.VEN",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -430,7 +430,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.OMG",
+      "symbol": "TEST.OMG",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -439,7 +439,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.NAS",
+      "symbol": "TEST.NAS",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -448,7 +448,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.KNC",
+      "symbol": "TEST.KNC",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -457,7 +457,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.PAY",
+      "symbol": "TEST.PAY",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -466,7 +466,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.ENG",
+      "symbol": "TEST.ENG",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -475,7 +475,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.LST",
+      "symbol": "TEST.LST",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -484,7 +484,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.GET",
+      "symbol": "TEST.GET",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -493,7 +493,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.HKN",
+      "symbol": "TEST.HKN",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -502,7 +502,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.MT",
+      "symbol": "TEST.MT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -511,7 +511,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.MAD",
+      "symbol": "TEST.MAD",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -520,7 +520,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.GNX",
+      "symbol": "TEST.GNX",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -529,7 +529,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.KEY",
+      "symbol": "TEST.KEY",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -538,7 +538,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.TCT",
+      "symbol": "TEST.TCT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -547,7 +547,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.DPY",
+      "symbol": "TEST.DPY",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -556,7 +556,7 @@
       "max_supply": 840000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.LTC",
+      "symbol": "TEST.LTC",
       "issuer_name": "a-new-world",
       "precision": 7
     },
@@ -565,7 +565,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.USDT",
+      "symbol": "TEST.USDT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -574,7 +574,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.INK",
+      "symbol": "TEST.INK",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -583,7 +583,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.LHC",
+      "symbol": "TEST.LHC",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -592,7 +592,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.LHT",
+      "symbol": "TEST.LHT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -601,7 +601,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.BTM",
+      "symbol": "TEST.BTM",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -610,7 +610,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.ICX",
+      "symbol": "TEST.ICX",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -619,7 +619,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.GNT",
+      "symbol": "TEST.GNT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -628,7 +628,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.MVP",
+      "symbol": "TEST.MVP",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -637,7 +637,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.NKN",
+      "symbol": "TEST.NKN",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -646,7 +646,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.SDT",
+      "symbol": "TEST.SDT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -655,7 +655,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.MKR",
+      "symbol": "TEST.MKR",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -664,7 +664,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.FUN",
+      "symbol": "TEST.FUN",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -673,7 +673,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.PPT",
+      "symbol": "TEST.PPT",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -682,7 +682,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.RHOC",
+      "symbol": "TEST.RHOC",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -691,7 +691,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.NES",
+      "symbol": "TEST.NES",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -700,7 +700,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.VET",
+      "symbol": "TEST.VET",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -736,7 +736,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.CTXC",
+      "symbol": "TEST.CTXC",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -745,7 +745,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.HER",
+      "symbol": "TEST.HER",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -754,7 +754,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.MCO",
+      "symbol": "TEST.MCO",
       "issuer_name": "a-new-world",
       "precision": 6
     },
@@ -763,7 +763,7 @@
       "max_supply": 1000000000000000,
       "is_bitasset": false,
       "accumulated_fees": 0,
-      "symbol": "JADE.JCT",
+      "symbol": "TEST.JCT",
       "issuer_name": "a-new-world",
       "precision": 6
     }
