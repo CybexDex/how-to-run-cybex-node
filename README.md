@@ -25,8 +25,8 @@ Step3. Download prebuilt witness_node, cli_wallet to bin directory,
 ```Bash
 wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/bin/witness_node -O bin/witness_node
 wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
-md5sum witness_node # will output "4bdaf8ac38c5e29a5dd367a1706b9493 witness_node"
-md5sum cli_wallet # will output "077558e37acafa8b40c8e319a1684e87 cli_wallet"
+md5sum witness_node # will output "656453cb87978dce4a7ee84fcc4790d3  witness_node"
+md5sum cli_wallet # will output "d4f04d2f0de3bd2ac33dd12dc5aaea1e  cli_wallet"
 ```
 
 Step4. Download genesis.json, config.ini
