@@ -25,7 +25,7 @@ Step3. Download prebuilt witness_node, cli_wallet to bin directory,
 ```Bash
 wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/bin/witness_node -O bin/witness_node
 wget https://github.com/CybexDEX/how-to-run-cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
-md5sum witness_node # will output "fa13eb3dec343ca5a9b4e2ea7d3a211d witness_node"
+md5sum witness_node # will output "5065ead2b2ee5c019d53d878bf846d6b witness_node"
 md5sum cli_wallet # will output "9edbecfb5c37fad3381ccb66572027ff  cli_wallet"
 ```
 
